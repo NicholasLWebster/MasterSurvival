@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MasterSurvival:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MasterSurvival_jar</output-path>
+    <root id="archive" name="MasterSurvival.jar">
+      <element id="module-output" name="MasterSurvival" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,11 @@
+name: MasterSurvival
+version: ${project.version}
+main: com.snowfallentertainment.mastersurvival.MasterSurvival
+api-version: 1.13
+authors: [Nicholas_Webster]
+description: This mod adds tempurature and survival mechanics to the game
+website: www.snowfallentertainment.com
+
+commands:
+  temp-gauge:
+    usage: /<command>
