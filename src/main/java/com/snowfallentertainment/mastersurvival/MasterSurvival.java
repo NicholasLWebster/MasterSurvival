@@ -58,24 +58,12 @@ public final class MasterSurvival extends JavaPlugin {
     }
 
     public void activateTempSystem(Player player){
-//        if(tempSystems.containsKey(player.getUniqueId())){
-//            tempSystems.get(player.getUniqueId()).setActive(true);
-//        }
-//        else {
-            TempSystem newTempSystem = new TempSystem(player);
-            tempSystems.put(player.getUniqueId(), newTempSystem);
-        //}
+        TempSystem newTempSystem = new TempSystem(player);
+        tempSystems.put(player.getUniqueId(), newTempSystem);
     }
 
     public void deactivateTempSystem(Player player){
         tempSystems.remove(player.getUniqueId());
-//        if(tempSystems.containsKey(player.getUniqueId())){
-//            tempSystems.get(player.getUniqueId()).setActive(false);
-//        }
-//        else {
-//            String errorMessage = "Temp system for " + player.getDisplayName() + "not found!";
-//            getLogger().log(Level.WARNING, errorMessage);
-//        }
     }
 
     public int getTempSystemCount() {
