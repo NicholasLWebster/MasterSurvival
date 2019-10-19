@@ -2,7 +2,7 @@ package com.snowfallentertainment.mastersurvival.temp_modifiers;
 
 public class ElevationModifier {
 
-    private static final double PER_BLOCK_ELEVATION_EFFECT = 0.1;
+    private static final double PER_BLOCK_ELEVATION_EFFECT = 0.5;
     private static final double PER_BLOCK_CORE_EFFECT = 1.5;
 
     public static double getElevationModifier(int y){
