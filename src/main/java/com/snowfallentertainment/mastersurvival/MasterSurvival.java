@@ -1,6 +1,7 @@
 package com.snowfallentertainment.mastersurvival;
 
 import com.snowfallentertainment.mastersurvival.commands.ActivateTempSystemCommand;
+import com.snowfallentertainment.mastersurvival.commands.DisplayModifierStatsCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginManager;
@@ -35,6 +36,7 @@ public final class MasterSurvival extends JavaPlugin {
         // Plugin startup logic
         getLogger().info("MasterSurvival plugin enabled...");
         this.getCommand("temp-gauge").setExecutor(new ActivateTempSystemCommand());
+        this.getCommand("temp-stats").setExecutor(new DisplayModifierStatsCommand());
         registerEvents();
         scheduleUpdate();
     }

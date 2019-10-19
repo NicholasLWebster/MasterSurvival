@@ -9,3 +9,5 @@ website: www.snowfallentertainment.com
 commands:
   temp-gauge:
     usage: /<command>
+  temp-stats:
+    usage: /<command>
