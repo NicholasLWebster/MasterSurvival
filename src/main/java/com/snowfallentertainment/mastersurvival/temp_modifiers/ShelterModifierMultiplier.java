@@ -20,8 +20,13 @@ public class ShelterModifierMultiplier {
 
     public static double getShelterModifier(Location location) {
         double shelterStrength = getShelterStrength(location);
-        double shelterEffectFromIncrement = INCREMENT_SHELTER_EFFECT * shelterStrength;
-        return 1 - (BASE_SHELTER_EFFECT + shelterEffectFromIncrement);
+        if(shelterStrength > 0){
+            double shelterEffectFromIncrement = INCREMENT_SHELTER_EFFECT * shelterStrength;
+            return 1 - (BASE_SHELTER_EFFECT + shelterEffectFromIncrement);
+        }
+        else {
+            return 1;
+        }
     }
 
     private static double getShelterStrength (Location location) {
@@ -35,7 +40,7 @@ public class ShelterModifierMultiplier {
 
         int shelterStrength = 0;
 
-        for (int i = y; i < yMax; i++) {
+        for (int i = y + 1; i < yMax; i++) {
             Block block = location.getWorld().getBlockAt(x, i, z);
             shelterStrength += getBlockShelterStrength(block);
         }

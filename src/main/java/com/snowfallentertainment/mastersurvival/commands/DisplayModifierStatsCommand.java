@@ -16,14 +16,15 @@ public class DisplayModifierStatsCommand implements CommandExecutor {
             long time = playerLoc.getWorld().getTime();
 
 
-            String biomeModifier = "Biome:" + BiomeModifier.getBiomeModifier(playerLoc);
-            String timeOfDayModifer = "ToD:" + TimeOfDayModifier.getSimpleTimeModifier(time);
-            String weatherModifier = "Weather:" + WeatherModifier.getWeatherModifier(playerLoc.getWorld().hasStorm());
+            String biomeModifier = "Biome: " + BiomeModifier.getBiomeModifier(playerLoc);
+            //String timeOfDayModifier = "ToD: " + TimeOfDayModifier.getSimpleTimeModifier(time);
+            String timeOfDayModifierV2 = "ToDv2: " + TimeOfDayModifier.getComplexTimeModifierV2(time);
+            String weatherModifier = "Weather: " + WeatherModifier.getWeatherModifier(playerLoc.getWorld().hasStorm());
             String shelterModifier = "Shelter: " + ShelterModifierMultiplier.getShelterModifier(playerLoc);
             String elevationModifier = "Elevation: " + ElevationModifier.getElevationModifier(playerLoc.getBlockY());
 
             player.sendMessage(biomeModifier);
-            player.sendMessage(timeOfDayModifer);
+            player.sendMessage(timeOfDayModifierV2);
             player.sendMessage(weatherModifier);
             player.sendMessage(shelterModifier);
             player.sendMessage(elevationModifier);

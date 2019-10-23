@@ -35,7 +35,7 @@ public final class MasterSurvival extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getLogger().info("MasterSurvival plugin enabled...");
-        this.getCommand("temp-gauge").setExecutor(new ActivateTempSystemCommand());
+        //this.getCommand("temp-gauge").setExecutor(new ActivateTempSystemCommand());
         this.getCommand("temp-stats").setExecutor(new DisplayModifierStatsCommand());
         registerEvents();
         scheduleUpdate();

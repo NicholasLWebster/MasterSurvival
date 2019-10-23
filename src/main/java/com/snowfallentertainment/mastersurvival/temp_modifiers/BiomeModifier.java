@@ -17,7 +17,7 @@ public class BiomeModifier {
             case WOODED_BADLANDS_PLATEAU:
             case MODIFIED_BADLANDS_PLATEAU:
             case MODIFIED_WOODED_BADLANDS_PLATEAU:
-                return 17.95;
+                return 11.12;
 
             case BEACH:
             case STONE_SHORE:
@@ -29,7 +29,7 @@ public class BiomeModifier {
             case DESERT:
             case DESERT_HILLS:
             case DESERT_LAKES:
-                return 17.95;
+                return 11.12;
 
             case FOREST:
                 return 6.11;
@@ -106,7 +106,7 @@ public class BiomeModifier {
                 return 42.25;
 
             case PLAINS:
-                return 6.7;
+                return 4.0;
 
             case SUNFLOWER_PLAINS:
                 return 11.11;

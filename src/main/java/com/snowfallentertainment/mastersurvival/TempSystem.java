@@ -46,6 +46,9 @@ public class TempSystem {
             if(Math.abs(deltaTemp) > .5) {
                 temp.setTempInCelsius(currentTemp + (deltaTemp/4));
             }
+            else {
+                temp.setTempInCelsius(calculatedTemp);
+            }
             tempGauge.updateTempDisplays(temp);
         }
     }
@@ -56,7 +59,8 @@ public class TempSystem {
         int elevation = location.getBlockY();
 
         double modifier = BiomeModifier.getBiomeModifier(location);
-        modifier += TimeOfDayModifier.getSimpleTimeModifier(currentTime);
+        modifier += TimeOfDayModifier.getComplexTimeModifierV2(currentTime);
+//        modifier += TimeOfDayModifier.getSimpleTimeModifier(currentTime);
         modifier += WeatherModifier.getWeatherModifier(isStorming);
         double modifierMultiplier = ShelterModifierMultiplier.getShelterModifier(location);
         modifier *= modifierMultiplier;
