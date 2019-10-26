@@ -87,7 +87,6 @@ public class ShelterModifierMultiplier {
             case MAGENTA_STAINED_GLASS:
             case LIGHT_BLUE_STAINED_GLASS:
             case LIGHT_GRAY_STAINED_GLASS:
-            case LEGACY_STAINED_GLASS:
 
             case GLASS_PANE:
             case RED_STAINED_GLASS_PANE:
@@ -106,14 +105,8 @@ public class ShelterModifierMultiplier {
             case MAGENTA_STAINED_GLASS_PANE:
             case LIGHT_BLUE_STAINED_GLASS_PANE:
             case LIGHT_GRAY_STAINED_GLASS_PANE:
-            case LEGACY_STAINED_GLASS_PANE:
 
             case GLASS_BOTTLE:
-            case LEGACY_GLASS_BOTTLE:
-
-            case LEGACY_THIN_GLASS:
-
-            case LEGACY_GLASS:
                 return GLASS_BLOCK_SHELTER_STRENGTH;
         }
 

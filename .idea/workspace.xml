@@ -8,22 +8,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a376e8e3-4fa4-4e44-b962-8d04f45d6d52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MasterSurvival_jar/MasterSurvival.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MasterSurvival_jar/MasterSurvival.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/MasterSurvival.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/MasterSurvival.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/PlayerEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/PlayerEventListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/TempSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/TempSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/commands/ActivateTempSystemCommand.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/commands/DisplayModifierStatsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/commands/DisplayModifierStatsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/BiomeModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/BiomeModifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ElevationModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ElevationModifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/TimeOfDayModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/TimeOfDayModifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/MasterSurvival.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/MasterSurvival.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/TempSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/TempSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/commands/DisplayModifierStatsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/commands/DisplayModifierStatsCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/temp_modifiers/BiomeModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/temp_modifiers/BiomeModifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/temp_modifiers/ElevationModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/temp_modifiers/ElevationModifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/temp_modifiers/TimeOfDayModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/snowfallentertainment/mastersurvival/temp_modifiers/TimeOfDayModifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,11 +30,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/MasterSurvival.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="method#MasterSurvival#0;class#MasterSurvival#0" />
+                <element signature="method#onEnable#0;class#MasterSurvival#0" />
+                <element signature="method#onDisable#0;class#MasterSurvival#0" />
+                <element signature="method#registerEvents#0;class#MasterSurvival#0" />
+                <element signature="method#scheduleUpdate#0;class#MasterSurvival#0" />
+                <element signature="method#activateTempSystem#0;class#MasterSurvival#0" />
+                <element signature="method#updateTempSystems#0;class#MasterSurvival#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/PlayerEventListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,21 +63,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/TempSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+            <state relative-caret-position="255">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="707">
+              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/BiomeModifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="170">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,32 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/TimeOfDayModifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/commands/DisplayModifierStatsCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/commands/ActivateTempSystemCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -187,15 +171,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/WeatherModifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierModifier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/PlayerEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/MasterSurvival.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/commands/DisplayModifierStatsCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/TimeOfDayModifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ElevationModifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/BiomeModifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/commands/DisplayModifierStatsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/TimeOfDayModifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/TempSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/PlayerEventListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/MasterSurvival.java" />
       </list>
     </option>
   </component>
@@ -293,7 +277,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="mastersurvival" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.41255605" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -349,10 +333,18 @@
       <option name="presentableId" value="Default" />
       <updated>1571252879897</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refined values">
+      <created>1571792787410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571792787410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -360,11 +352,11 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24053334" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2457356" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49975038" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5002496" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49975038" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info active="true" anchor="bottom" id="Find" order="5" visible="true" weight="0.21451788" />
@@ -382,6 +374,10 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refined values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined values" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-chat/1.13-SNAPSHOT/bungeecord-chat-1.13-20190406.085523-69-sources.jar!/net/md_5/bungee/api/chat/TextComponent.java">
@@ -411,37 +407,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/PlayerEventListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/commands/DisplayModifierStatsCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/MasterSurvival.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/TimeOfDayModifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/WeatherModifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -452,37 +441,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/ShelterModifierMultiplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/BiomeModifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/TimeOfDayModifier.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/commands/DisplayModifierStatsCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/temp_modifiers/WeatherModifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/TempSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/PlayerEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -491,22 +487,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/commands/ActivateTempSystemCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/TempSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snowfallentertainment/mastersurvival/MasterSurvival.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
+            <element signature="method#MasterSurvival#0;class#MasterSurvival#0" />
+            <element signature="method#onEnable#0;class#MasterSurvival#0" />
+            <element signature="method#onDisable#0;class#MasterSurvival#0" />
+            <element signature="method#registerEvents#0;class#MasterSurvival#0" />
+            <element signature="method#scheduleUpdate#0;class#MasterSurvival#0" />
+            <element signature="method#activateTempSystem#0;class#MasterSurvival#0" />
+            <element signature="method#updateTempSystems#0;class#MasterSurvival#0" />
           </folding>
         </state>
       </provider>

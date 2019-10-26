@@ -7,7 +7,5 @@ description: This mod adds tempurature and survival mechanics to the game
 website: www.snowfallentertainment.com
 
 commands:
-  temp-gauge:
-    usage: /<command>
   temp-stats:
     usage: /<command>

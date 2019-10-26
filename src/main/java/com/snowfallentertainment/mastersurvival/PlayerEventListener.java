@@ -8,14 +8,13 @@ import org.bukkit.event.player.PlayerQuitEvent;
 public class PlayerEventListener implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event){
-        event.getPlayer().sendMessage("Welcome to the server!");
-        MasterSurvival plugin = MasterSurvival.getInstance();
-        plugin.activateTempSystem(event.getPlayer());
+        MasterSurvival pluginInstance = MasterSurvival.getInstance();
+        pluginInstance.activateTempSystem(event.getPlayer());
     }
 
     @EventHandler
     public void onPlayerQuit(PlayerQuitEvent event){
-        MasterSurvival plugin = MasterSurvival.getInstance();
-        plugin.deactivateTempSystem(event.getPlayer());
+        MasterSurvival pluginInstance = MasterSurvival.getInstance();
+        pluginInstance.deactivateTempSystem(event.getPlayer());
     }
 }

@@ -19,38 +19,24 @@ public class TempSystem {
 
     private Temperature temp;
     private TempGauge tempGauge;
-    private boolean isActive;
-    public boolean isActive() {
-        return isActive;
-    }
-    public void setActive(boolean active) {
-        if(active){
-            tempGauge.activate();
-        }
-        isActive = active;
-    }
 
     public TempSystem(Player linkedPlayer) {
         this.linkedPlayer = linkedPlayer;
-        this.isActive = true;
         temp = new Temperature(getCalculatedTemp(linkedPlayer.getLocation()));
         tempGauge = new TempGauge(linkedPlayer, temp);
     }
 
-    public void updateIfActive() {
-        if(isActive){
-            Location playerLoc = linkedPlayer.getLocation();
-            double calculatedTemp = getCalculatedTemp(playerLoc);
-            double currentTemp = temp.getTempInCelsius();
-            double deltaTemp = calculatedTemp - currentTemp;
-            if(Math.abs(deltaTemp) > .5) {
-                temp.setTempInCelsius(currentTemp + (deltaTemp/4));
-            }
-            else {
-                temp.setTempInCelsius(calculatedTemp);
-            }
-            tempGauge.updateTempDisplays(temp);
+    public void update() {
+        Location playerLoc = linkedPlayer.getLocation();
+        double calculatedTemp = getCalculatedTemp(playerLoc);
+        double currentTemp = temp.getTempInCelsius();
+        double deltaTemp = calculatedTemp - currentTemp;
+        if (Math.abs(deltaTemp) > .5) {
+            temp.setTempInCelsius(currentTemp + (deltaTemp / 4));
+        } else {
+            temp.setTempInCelsius(calculatedTemp);
         }
+        tempGauge.updateTempDisplays(temp);
     }
 
     private double getCalculatedTemp(Location location) {
@@ -59,7 +45,7 @@ public class TempSystem {
         int elevation = location.getBlockY();
 
         double modifier = BiomeModifier.getBiomeModifier(location);
-        modifier += TimeOfDayModifier.getComplexTimeModifierV2(currentTime);
+        modifier += TimeOfDayModifier.getTimeOfDayModifierMultiplier(currentTime);
 //        modifier += TimeOfDayModifier.getSimpleTimeModifier(currentTime);
         modifier += WeatherModifier.getWeatherModifier(isStorming);
         double modifierMultiplier = ShelterModifierMultiplier.getShelterModifier(location);
