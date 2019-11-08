@@ -1,6 +1,7 @@
 package com.snowfallentertainment.mastersurvival;
 
 import com.snowfallentertainment.mastersurvival.commands.DisplayModifierStatsCommand;
+import com.snowfallentertainment.mastersurvival.commands.ToggleNearByBlockModifierCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginManager;
@@ -34,6 +35,7 @@ public final class MasterSurvival extends JavaPlugin {
         // Plugin startup logic
         getLogger().info("MasterSurvival plugin enabled...");
         this.getCommand("temp-stats").setExecutor(new DisplayModifierStatsCommand());
+        this.getCommand("temp-checkNearbyBlocks").setExecutor(new ToggleNearByBlockModifierCommand());
         registerEvents();
         scheduleUpdate();
     }
@@ -73,5 +75,14 @@ public final class MasterSurvival extends JavaPlugin {
         for (Map.Entry<UUID, TempSystem> system : tempSystems.entrySet()) {
             system.getValue().update();
         }
+    }
+
+    public void togglePlayerNearByTempModifer(Player player, boolean isEnabled){
+        TempSystem ts = tempSystems.get(player.getUniqueId());
+        ts.setUseNearbyBlockModifier(isEnabled);
+    }
+
+    public boolean getUseNearbyBlockModifier(Player player){
+        return tempSystems.get(player.getUniqueId()).useNearbyBlockModifier();
     }
 }

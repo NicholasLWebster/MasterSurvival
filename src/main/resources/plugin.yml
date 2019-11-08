@@ -9,3 +9,5 @@ website: www.snowfallentertainment.com
 commands:
   temp-stats:
     usage: /<command>
+  temp-checkNearbyBlocks:
+    usage: /<command>

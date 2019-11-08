@@ -11,8 +11,17 @@ public class TempSystem {
 
     private static final double BASE_INDOOR_TEMP = 15.55;
 
-
     private Player linkedPlayer;
+
+    private boolean useNearbyBlockModifier = true;
+    public boolean useNearbyBlockModifier() {
+        return useNearbyBlockModifier;
+    }
+    public void setUseNearbyBlockModifier(boolean useNearbyBlockModifier) {
+        this.useNearbyBlockModifier = useNearbyBlockModifier;
+    }
+
+
     public UUID getLinkedPlayerUUID() {
         return linkedPlayer.getUniqueId();
     }
@@ -51,7 +60,11 @@ public class TempSystem {
         double modifierMultiplier = ShelterModifierMultiplier.getShelterModifier(location);
         modifier *= modifierMultiplier;
         modifier += ElevationModifier.getElevationModifier(elevation);
+        if(useNearbyBlockModifier){
+            modifier += NearByBlocksModifier.getNearByBlockModifier(linkedPlayer);
+        }
 
         return BASE_INDOOR_TEMP + modifier;
     }
+
 }
